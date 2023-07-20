@@ -9,6 +9,14 @@ body{
     color:var(--tg-theme-text-color);
     background-color: var(--tg-theme-bg-color);
 }
+h1::selection{
+    color: white;
+   background-color: rgb(115, 55, 147);
+}
+p::selection{
+    color: white;
+    background-color: rgb(115, 55, 147);
+}
 #main{
     width:100%;
     padding:150px 10px ;
@@ -28,10 +36,12 @@ p {
 input {
     width:100%;
     height: 50px;
-    border:2px dashed black;
+    border: none;
     border-radius:30px;
+    box-shadow:0px 5px 3px 1px rgb(115, 55, 147);
     transition:2s;
 }
+ 
 input[placeholder] {
     padding-left:10px;
     text-align: center;
@@ -46,6 +56,12 @@ button {
     color:white;
     border:none;
     cursor:pointer;
-    box-shadow: 0px 0px 25px 1px grey;
+    box-shadow: 0px 6px 2px 1px rgb(115, 55, 147);
     font-size: 18px;
+    transition:.7s;
+}
+button:active{
+    transition:.2s;
+    transform: translateY(10px);
+    box-shadow: 0px 0px 0px 0px ;
 }
