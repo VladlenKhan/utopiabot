@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Telegram bot by UTOPIA
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
